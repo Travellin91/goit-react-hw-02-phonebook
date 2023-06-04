@@ -12,6 +12,7 @@
   
   .contacts-heading {
     margin-bottom: 10px;
+    color: #007bff;
   }
   
   @media (max-width: 576px) {
