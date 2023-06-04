@@ -1,0 +1,36 @@
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+    gap: 4px;
+    border-radius: 8px;
+  }
+  
+  .contact-name {
+    font-weight: bold;
+  }
+  
+  .contact-delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contact-delete-button i {
+    color: rgb(0, 0, 0);
+  }
+  
+  .contact-number {
+    color: #666;
+  }
+  
